@@ -1,17 +1,15 @@
-#!/usr/local/bin/php
-<?php
+# Original Author
 
-/**
- * Timer.class example script
- * 
- * @author ktamas77 at gmail dot com
- */
+[Tamas Kalman](https://github.com/ktamas77)
 
-error_reporting(E_ALL);
+# Introduction
 
-require_once 'timer.class.inc.php';
+For keeping track of the time it takes to run processes in your code.
 
-$timer = new Timer();
+# Example Code
+
+<pre>
+$timer = new PhpTimer();
 
 $a = 0;
 
@@ -34,5 +32,4 @@ for ($i = 0; $i < 10; $i++) {
 }
 
 var_dump($timer->getAll());
-
-?>
+</pre>

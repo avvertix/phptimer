@@ -3,6 +3,6 @@
 	"type": "library",
   	"homepage": "https://github.com/josephbergevin/phptimer",
 	"require": {
-		"composer/installers": "*"
+		"php": ">=5.3.0"
 	}
 }

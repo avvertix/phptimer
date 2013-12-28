@@ -1,6 +1,6 @@
 {
   	"name": "josephbergevin/phptimer",
-	"type": "cakephp-plugin",
+	"type": "library",
   	"homepage": "https://github.com/josephbergevin/phptimer",
 	"require": {
 		"composer/installers": "*"

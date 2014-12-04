@@ -1,22 +1,23 @@
 <?php
 
 /**
- * PHPTimer Class
+ * PHPTimer Class.
  *
- * PHP version 5
+ * Timers with labels
+ *
  * 
  * @category  Profiling
- * @package   PHPTimer
+ * @package   PhpTimer
  * @author    Tamas Kalman <ktamas77@gmail.com>
- * @copyright 2007,2012 (c) Tamas Kalman
- * 
+ * @author    Joseph Bergevin 
+ * @author    Alessio Vertemati <[email]>
  */
-class PhpTimer
+final class PhpTimer
 {
 
-    var $_privateTime;
-    var $_timeArray;
-    var $_timerMask;
+    private $_privateTime;
+    private $_timeArray;
+    private $_timerMask;
 
     function __construct()
     {

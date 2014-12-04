@@ -1,4 +1,4 @@
-PHPTimer
+PhpTimer
 ========
 
 An easy to use 100% native PHP library to profile PHP code.
@@ -20,6 +20,8 @@ Features:
 
 # Installation
 
+## With composer
+
 To add this package as a local, per-project dependency to your project, simply add a dependency on `avvertix/phptimer` to your project's `composer.json` file. Here is a minimal example of a `composer.json` file that just defines a dependency on `PhpTimer`:
 
 ```
@@ -30,12 +32,16 @@ To add this package as a local, per-project dependency to your project, simply a
 }
 ```
 
+## Without composer
+
+```php
+	require_once 'src/PhpTimer.php';
+```
+
 
 # Usage
 
 ```php
-
-  require_once 'timer.class.inc.php';
   
   $timer = new PhpTimer();
   
